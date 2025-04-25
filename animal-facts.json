@@ -1,0 +1,884 @@
+[
+  {
+    "AnimalName": "Sheep",
+    "Region": "FARM",
+    "SolutionLength": 9,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 6
+  },
+  {
+    "AnimalName": "Rabbit",
+    "Region": "FARM",
+    "SolutionLength": 9,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 6
+  },
+  {
+    "AnimalName": "Pig",
+    "Region": "FARM",
+    "SolutionLength": 9,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 6
+  },
+  {
+    "AnimalName": "Horse",
+    "Region": "FARM",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 10
+  },
+  {
+    "AnimalName": "Cow",
+    "Region": "FARM",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 10
+  },
+  {
+    "AnimalName": "Unicorn",
+    "Region": "FARM",
+    "SolutionLength": 7,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 14
+  },
+  {
+    "AnimalName": "Chicken",
+    "Region": "FARM",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Kangaroo",
+    "Region": "OUTBACK",
+    "SolutionLength": 6,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 8
+  },
+  {
+    "AnimalName": "Crocodile",
+    "Region": "OUTBACK",
+    "SolutionLength": 9,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 8
+  },
+  {
+    "AnimalName": "Platypus",
+    "Region": "OUTBACK",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 8
+  },
+  {
+    "AnimalName": "Koala",
+    "Region": "OUTBACK",
+    "SolutionLength": 9,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 12
+  },
+  {
+    "AnimalName": "Cockatoo",
+    "Region": "OUTBACK",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 12
+  },
+  {
+    "AnimalName": "Tiddalik",
+    "Region": "OUTBACK",
+    "SolutionLength": 7,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Echidna",
+    "Region": "OUTBACK",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Zebra",
+    "Region": "SAVANNA",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 10
+  },
+  {
+    "AnimalName": "Hippo",
+    "Region": "SAVANNA",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 10
+  },
+  {
+    "AnimalName": "Giraffe",
+    "Region": "SAVANNA",
+    "SolutionLength": 9,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 10
+  },
+  {
+    "AnimalName": "Lion",
+    "Region": "SAVANNA",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 14
+  },
+  {
+    "AnimalName": "Elephant",
+    "Region": "SAVANNA",
+    "SolutionLength": 9,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 14
+  },
+  {
+    "AnimalName": "Gryphon",
+    "Region": "SAVANNA",
+    "SolutionLength": 7,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "FLY",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Rhino",
+    "Region": "SAVANNA",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Skunk",
+    "Region": "NORTHERN",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 12
+  },
+  {
+    "AnimalName": "Bear",
+    "Region": "NORTHERN",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 12
+  },
+  {
+    "AnimalName": "Beaver",
+    "Region": "NORTHERN",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 12
+  },
+  {
+    "AnimalName": "Fox",
+    "Region": "NORTHERN",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Moose",
+    "Region": "NORTHERN",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Sasquatch",
+    "Region": "NORTHERN",
+    "SolutionLength": 12,
+    "Rarity": "EPIC",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Otter",
+    "Region": "NORTHERN",
+    "SolutionLength": 9,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Penguin",
+    "Region": "POLAR",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 14
+  },
+  {
+    "AnimalName": "Seal",
+    "Region": "POLAR",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 14
+  },
+  {
+    "AnimalName": "Muskox",
+    "Region": "POLAR",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 14
+  },
+  {
+    "AnimalName": "Polar Bear",
+    "Region": "POLAR",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Walrus",
+    "Region": "POLAR",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Yeti",
+    "Region": "POLAR",
+    "SolutionLength": 11,
+    "Rarity": "EPIC",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Snowy Owl",
+    "Region": "POLAR",
+    "SolutionLength": 9,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Monkey",
+    "Region": "JUNGLE",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Toucan",
+    "Region": "JUNGLE",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Gorilla",
+    "Region": "JUNGLE",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Panda",
+    "Region": "JUNGLE",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Tiger",
+    "Region": "JUNGLE",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Phoenix",
+    "Region": "JUNGLE",
+    "SolutionLength": 9,
+    "Rarity": "EPIC",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Lemur",
+    "Region": "JUNGLE",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 28
+  },
+  {
+    "AnimalName": "Diplodocus",
+    "Region": "JURASSIC",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Raptor",
+    "Region": "JURASSIC",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Stegosaurus",
+    "Region": "JURASSIC",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Triceratops",
+    "Region": "JURASSIC",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "T-Rex",
+    "Region": "JURASSIC",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Dragon",
+    "Region": "JURASSIC",
+    "SolutionLength": 10,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "FLY",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Ankylo",
+    "Region": "JURASSIC",
+    "SolutionLength": 8,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Wooly Rhino",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Giant Sloth",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Dire Wolf",
+    "Region": "ICE_AGE",
+    "SolutionLength": 6,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Saber Tooth",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Mammoth",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Akhlut",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 28
+  },
+  {
+    "AnimalName": "Yukon Camel",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 32
+  },
+  {
+    "AnimalName": "Raccoon",
+    "Region": "CITY",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Pigeon",
+    "Region": "CITY",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Rat",
+    "Region": "CITY",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Squirrel",
+    "Region": "CITY",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Opossum",
+    "Region": "CITY",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Sewer Turtle",
+    "Region": "CITY",
+    "SolutionLength": 12,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Chipmunk",
+    "Region": "CITY",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 34
+  },
+  {
+    "AnimalName": "Goat",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Cougar",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Elk",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Eagle",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 28
+  },
+  {
+    "AnimalName": "Coyote",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 28
+  },
+  {
+    "AnimalName": "Aatxe",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 10,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 32
+  },
+  {
+    "AnimalName": "Pika",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 8,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 36
+  },
+  {
+    "AnimalName": "Badger",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Bat",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Kiwi",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Flying Squirrel",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "FLY",
+    "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Kakapo",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 8,
+    "Rarity": "RARE",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Ghost",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 11,
+    "Rarity": "EPIC",
+    "Legs": 0,
+    "HopSize": "FLY",
+    "CoinsPerMin": 34
+  },
+  {
+    "AnimalName": "Firefly",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 6,
+    "HopSize": "FLY",
+    "CoinsPerMin": 38
+  },
+  {
+    "AnimalName": "Tribble",
+    "Region": "MOON",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 0,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Lunar Tick",
+    "Region": "MOON",
+    "SolutionLength": 6,
+    "Rarity": "COMMON",
+    "Legs": 8,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Moonkey",
+    "Region": "MOON",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 18
+  },
+  {
+    "AnimalName": "Luna Moth",
+    "Region": "MOON",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 6,
+    "HopSize": "FLY",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Moonicorn",
+    "Region": "MOON",
+    "SolutionLength": 9,
+    "Rarity": "RARE",
+    "Legs": 4,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Jade Rabbit",
+    "Region": "MOON",
+    "SolutionLength": 10,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Babmoon",
+    "Region": "MOON",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Marsmot",
+    "Region": "MARS",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Marsmoset",
+    "Region": "MARS",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Rock",
+    "Region": "MARS",
+    "SolutionLength": 9,
+    "Rarity": "COMMON",
+    "Legs": 0,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Rover",
+    "Region": "MARS",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 6,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Martian",
+    "Region": "MARS",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Marsmallow",
+    "Region": "MARS",
+    "SolutionLength": 11,
+    "Rarity": "EPIC",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 28
+  },
+  {
+    "AnimalName": "Marsten",
+    "Region": "MARS",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 32
+  },
+  {
+    "AnimalName": "Chamaeleon",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Corvus",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 7,
+    "Rarity": "COMMON",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Lynx",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 8,
+    "Rarity": "COMMON",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
+    "AnimalName": "Pisces",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 0,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Capricornus",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 7,
+    "Rarity": "RARE",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Pegasus",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 9,
+    "Rarity": "EPIC",
+    "Legs": 4,
+    "HopSize": "FLY",
+    "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Horologium",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 0,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 34
+  }
+]
