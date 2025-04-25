@@ -18,15 +18,27 @@
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
-  <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <input type="text" id="inputText" placeholder="Type something...">
+  <button onclick="animalSubmitted()">Submit</button>
+  <table id="itemTable" border="1">
+    <thead>
+    <tr>
+      <th>SolutionLength</th>
+      <th>Rarity</th>
+      <th>Legs</th>
+      <th>HopSize</th>
+      <th>CoinsPerMin</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Items will be added here -->
+    </tbody>
+  </table>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <p id="animal-display"></p>
   <script src="./js/app.js" type="module"></script>
 </body>
 
