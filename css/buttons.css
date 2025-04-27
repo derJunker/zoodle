@@ -1,0 +1,197 @@
+:root {
+  --btn-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  --btn-shadow-and-border: inset 0px 0px 0px var(--border-small) rgba(0, 0, 0, var(--border-dark-opacity)), var(--btn-shadow);
+}
+
+
+.btn-gradient {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 45%, rgba(0, 0, 0, 0) 46%);
+}
+
+.color-action-good {
+  background-color: #7CD61C;
+}
+
+.color-action-bad {
+  background-color: #D7261C;
+}
+
+.color-action-neutral-1 {
+  background-color: #FF8913;
+}
+
+.color-action-neutral-2 {
+  background-color: #00A6F0;
+}
+
+.color-action-neutral-3 {
+  background-color: #A822CF;
+}
+
+.color-action-share {
+  background-color: #eb1d72;
+}
+
+.color-action-disabled {
+  background-color: #818181;
+}
+
+.color-action-info {
+  background-color: #E7650D;
+}
+
+.btn {
+    padding: .4rem 0.75rem;
+    box-shadow:var(--btn-shadow);
+    cursor: pointer;
+    user-select: none;
+}
+
+
+button {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    text-shadow: inherit;
+    border: inherit;
+}
+
+
+.btn {
+  clip-path: polygon(0px calc(100% - 4px),
+  2px calc(100% - 4px),
+  2px calc(100% - 2px),
+  4px calc(100% - 2px),
+  4px 100%,
+  calc(100% - 4px) 100%,
+  calc(100% - 4px) calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 4px),
+  100% calc(100% - 4px),
+  100% 4px,
+  calc(100% - 2px) 4px,
+  calc(100% - 2px) 2px,
+  calc(100% - 4px) 2px,
+  calc(100% - 4px) 0px,
+  4px 0px,
+  4px 2px,
+  2px 2px,
+  2px 4px,
+  0px 4px);
+  position: relative;
+}
+.btn {
+  border: 2px solid transparent;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  clip-path: polygon(0px calc(100% - 4px),
+  2px calc(100% - 4px),
+  2px calc(100% - 2px),
+  4px calc(100% - 2px),
+  4px 100%,
+  calc(100% - 4px) 100%,
+  calc(100% - 4px) calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 4px),
+  100% calc(100% - 4px),
+  100% 4px,
+  calc(100% - 2px) 4px,
+  calc(100% - 2px) 2px,
+  calc(100% - 4px) 2px,
+  calc(100% - 4px) 0px,
+  4px 0px,
+  4px 2px,
+  2px 2px,
+  2px 4px,
+  0px 4px,
+  0px 50%,
+  2px 50%,
+  2px 4px,
+  4px 4px,
+  4px 2px,
+  calc(100% - 4px) 2px,
+  calc(100% - 4px) 4px,
+  calc(100% - 2px) 4px,
+  calc(100% - 2px) calc(100% - 4px),
+  calc(100% - 4px) calc(100% - 4px),
+  calc(100% - 4px) calc(100% - 2px),
+  4px calc(100% - 2px),
+  4px calc(100% - 4px),
+  2px calc(100% - 4px),
+  2px 50%,
+  0px 50%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  pointer-events: none;
+  background: rgba(0, 0, 0, var(--border-dark-opacity));
+}
+
+.btn::after {
+  background: rgba(0, 0, 0, var(--border-dark-opacity));
+}
+.btn::after {
+  margin: -2px;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  clip-path: polygon(0px calc(100% - 4px),
+  2px calc(100% - 4px),
+  2px calc(100% - 2px),
+  4px calc(100% - 2px),
+  4px 100%,
+  calc(100% - 4px) 100%,
+  calc(100% - 4px) calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 2px),
+  calc(100% - 2px) calc(100% - 4px),
+  100% calc(100% - 4px),
+  100% 4px,
+  calc(100% - 2px) 4px,
+  calc(100% - 2px) 2px,
+  calc(100% - 4px) 2px,
+  calc(100% - 4px) 0px,
+  4px 0px,
+  4px 2px,
+  2px 2px,
+  2px 4px,
+  0px 4px,
+  0px 50%,
+  2px 50%,
+  2px 4px,
+  4px 4px,
+  4px 2px,
+  calc(100% - 4px) 2px,
+  calc(100% - 4px) 4px,
+  calc(100% - 2px) 4px,
+  calc(100% - 2px) calc(100% - 4px),
+  calc(100% - 4px) calc(100% - 4px),
+  calc(100% - 4px) calc(100% - 2px),
+  4px calc(100% - 2px),
+  4px calc(100% - 4px),
+  2px calc(100% - 4px),
+  2px 50%,
+  0px 50%);
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  display: block;
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.25);
+}
+.btn::before {
+  margin: -2px;
+}
+.btn:focus::after {
+  background: #ffffff;
+}
+
+.btn:focus {
+  transform: scale(1.025);
+  transition-duration: .1s;
+}
