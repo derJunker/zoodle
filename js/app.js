@@ -144,7 +144,7 @@ function getDailyAnimalFacts() {
 function shareResults() {
   const resultText = convertGuessHistoryToEmoji();
   if (navigator.canShare && navigator.canShare({ text: resultText })) {
-    navigator.share({ text: "Pog" })
+    navigator.share({ text: resultText })
   } else {
     navigator.clipboard.writeText(resultText)
              .then(() => alert("Text wurde in die Zwischenablage kopiert!"))
