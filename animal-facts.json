@@ -229,7 +229,7 @@
     "Region": "POLAR",
     "SolutionLength": 7,
     "Rarity": "COMMON",
-    "Legs": 4,
+    "Legs": 0,
     "HopSize": "SMALL",
     "CoinsPerMin": 14
   },
