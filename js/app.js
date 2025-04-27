@@ -159,8 +159,7 @@ function getDailyAnimalFacts() {
 function shareResults() {
   const startDate = new Date('2025-04-26');
   const today = new Date();
-  const diffTime = Math.abs(today - startDate);
-  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+  const diffDays = Math.floor((today - startDate) / 86400000);
   const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
   const guessHistoryText = convertGuessHistoryToEmoji();
   const shareText = sharePreText + guessHistoryText + "\nhttps://derjunker.github.io/zoodle/";
