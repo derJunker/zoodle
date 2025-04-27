@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d3dd673-604a-424e-9abd-4241294faa8e" name="Changes" comment="idk tbh">
+    <list default="true" id="1d3dd673-604a-424e-9abd-4241294faa8e" name="Changes" comment="fixed sharing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745785359660</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed sharing">
+      <option name="closed" value="true" />
+      <created>1745785573193</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1745785573193</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +271,7 @@
     <MESSAGE value="fixed file path now maybe?" />
     <MESSAGE value="actually fixed picture path" />
     <MESSAGE value="idk tbh" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk tbh" />
+    <MESSAGE value="fixed sharing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed sharing" />
   </component>
 </project>

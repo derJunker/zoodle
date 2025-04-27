@@ -142,11 +142,17 @@ function getDailyAnimalFacts() {
 }
 
 function shareResults() {
-  const resultText = convertGuessHistoryToEmoji();
-  if (navigator.canShare && navigator.canShare({ text: resultText })) {
-    navigator.share({ text: resultText })
+  const startDate = new Date('2025-04-26');
+  const today = new Date();
+  const diffTime = Math.abs(today - startDate);
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+  const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
+  const guessHistoryText = convertGuessHistoryToEmoji();
+  const shareText = sharePreText + guessHistoryText + "\nhttps://derjunker.github.io/zoodle/";
+  if (navigator.canShare && navigator.canShare({ text: shareText })) {
+    navigator.share({ text: shareText })
   } else {
-    navigator.clipboard.writeText(resultText)
+    navigator.clipboard.writeText(shareText)
              .then(() => alert("Text wurde in die Zwischenablage kopiert!"))
              .catch(err => console.error("Fehler beim Kopieren des Textes:", err));
   }
