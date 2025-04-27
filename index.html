@@ -22,22 +22,42 @@
 </head>
 
 <body>
-  <input type="text" id="inputText" placeholder="Type something...">
-  <button onclick="animalSubmitted()">Submit</button>
-  <table id="itemTable" border="1">
-    <thead>
-    <tr>
-      <th>SolutionLength</th>
-      <th>Rarity</th>
-      <th>Legs</th>
-      <th>HopSize</th>
-      <th>CoinsPerMin</th>
-    </tr>
-    </thead>
-    <tbody>
-    <!-- Items will be added here -->
-    </tbody>
-  </table>
+  <div class="wood-menu dock-bottom dock-bottom-shadow menu-bottom">
+    <input type="text" id="inputText" list="animalList" placeholder="Type something...">
+    <datalist id="animalList">
+      <option value="Sheep">
+      <option value="Pig">
+      <option value="Horse">
+      <option value="Cow">
+      <option value="Unicorn">
+      <option value="Chicken">
+    </datalist>
+    <button onclick="animalSubmitted()">Submit</button>
+    <table id="itemTable">
+      <thead>
+      <tr>
+        <th>Animal</th>
+        <th>Difficulty</th>
+        <th>Rarity</th>
+        <th>Legs</th>
+        <th>HopSize</th>
+        <th>💰/min</th>
+      </tr>
+      </thead>
+      <tbody>
+      <!-- Items will be added here -->
+      <tr>
+        <td><div class="guess-animal"></div></td>
+        <td><div class="guess-up"></div></td>
+        <td><div class="guess-correct"></div></td>
+        <td><div class="guess-correct"></div></td>
+        <td><div class="guess-correct"></div></td>
+        <td><div class="guess-down"></div></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
 
   <script src="./js/app.js" type="module"></script>
 </body>
