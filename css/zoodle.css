@@ -62,7 +62,7 @@
   width: 100%;
   max-width: 5rem;
   aspect-ratio: 1;
-  border-radius: var(--border-medium);
+  border-radius: var(--border-large);
   border: var(--border-medium) rgba(0,0,0,0.3) solid;
 }
 
