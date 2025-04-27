@@ -4,111 +4,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d3dd673-604a-424e-9abd-4241294faa8e" name="Changes" comment="sharing works kinda">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/aatxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/aatxe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/akhlut.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/akhlut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/ankylo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/ankylo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/babmoon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/babmoon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/badger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/badger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/bat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/bat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/bear.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/bear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/beaver.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/beaver.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/capricornus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/capricornus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/chamaeleon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/chamaeleon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/chicken.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/chicken.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/chipmunk.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/chipmunk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/cockatoo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/cockatoo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/corvus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/corvus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/cougar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/cougar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/cow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/cow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/coyote.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/coyote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/crocodile.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/crocodile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/diplodocus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/diplodocus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/dire wolf.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/dire wolf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/discobux 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/discobux 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/discobux.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/discobux.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/dragon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/eagle.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/eagle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/echidna.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/echidna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/elephant.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/elephant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/elk.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/elk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/firefly.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/firefly.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/flying squirrel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/flying squirrel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/fox.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/fox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/ghost.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/ghost.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/giant sloth.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/giant sloth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/giraffe.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/giraffe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/goat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/goat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/gorilla.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/gorilla.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/gryphon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/gryphon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/hippo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/hippo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/horologium.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/horologium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/horse.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/horse.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/jade rabbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/jade rabbit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/kakapo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/kakapo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/kangaroo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/kangaroo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/kiwi.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/kiwi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/koala.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/koala.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/lemur.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/lemur.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/lion.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/lion.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/luna moth.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/luna moth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/lunar tick.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/lunar tick.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/lynx.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/lynx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/mammoth.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/mammoth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/marsmallow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/marsmallow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/marsmoset.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/marsmoset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/marsmot.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/marsmot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/marsten.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/marsten.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/martian.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/martian.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/monkey.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/monkey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/moonicorn.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/moonicorn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/moonkey.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/moonkey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/moose.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/moose.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/muskox.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/muskox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/opossum.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/opossum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/otter.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/otter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/panda.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/panda.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/pegasus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/pegasus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/penguin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/penguin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/phoenix.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/phoenix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/pig.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/pig.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/pigeon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/pigeon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/pika.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/pika.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/pisces.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/pisces.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/platypus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/platypus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/polar bear.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/polar bear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/rabbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/rabbit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/raccoon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/raccoon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/raptor.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/raptor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/rat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/rat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/rhino.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/rhino.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/rock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/rover.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/rover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/saber tooth.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/saber tooth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/sasquatch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/sasquatch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/seal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/seal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/sewer turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/sewer turtle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/sheep.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/sheep.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/skunk.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/skunk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/snowy owl.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/snowy owl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/squirrel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/squirrel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/stegosaurus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/stegosaurus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/t-rex.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/t-rex.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/tiddalik.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/tiddalik.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/tiger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/tiger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/toucan.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/toucan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/tribble.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/tribble.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/triceratops.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/triceratops.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/unicorn.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/unicorn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/walrus.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/walrus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/wooly rhino.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/wooly rhino.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/yeti.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/yeti.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/yukon camel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/yukon camel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animals/zebra.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/animals/zebra.png" afterDir="false" />
+    <list default="true" id="1d3dd673-604a-424e-9abd-4241294faa8e" name="Changes" comment="maybe fixed file paths for img">
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/aatxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/aatxe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/akhlut.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/akhlut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/ankylo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/ankylo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/babmoon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/babmoon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/badger.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/badger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/bat.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/bat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/bear.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/bear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/beaver.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/beaver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/capricornus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/capricornus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/chamaeleon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/chamaeleon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/chicken.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/chicken.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/chipmunk.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/chipmunk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/cockatoo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/cockatoo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/corvus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/corvus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/cougar.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/cougar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/cow.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/cow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/coyote.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/coyote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/crocodile.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/crocodile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/diplodocus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/diplodocus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/dire wolf.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/dire wolf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/discobux 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/discobux 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/discobux.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/discobux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/dragon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/eagle.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/eagle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/echidna.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/echidna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/elephant.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/elephant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/elk.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/elk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/firefly.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/firefly.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/flying squirrel.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/flying squirrel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/fox.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/fox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/ghost.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/ghost.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/giant sloth.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/giant sloth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/giraffe.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/giraffe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/goat.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/goat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/gorilla.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/gorilla.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/gryphon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/gryphon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/hippo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/hippo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/horologium.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/horologium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/horse.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/horse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/jade rabbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/jade rabbit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/kakapo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/kakapo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/kangaroo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/kangaroo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/kiwi.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/kiwi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/koala.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/koala.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/lemur.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/lemur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/lion.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/lion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/luna moth.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/luna moth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/lunar tick.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/lunar tick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/lynx.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/lynx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/mammoth.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/mammoth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/marsmallow.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/marsmallow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/marsmoset.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/marsmoset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/marsmot.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/marsmot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/marsten.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/marsten.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/martian.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/martian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/monkey.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/monkey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/moonicorn.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/moonicorn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/moonkey.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/moonkey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/moose.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/moose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/muskox.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/muskox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/opossum.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/opossum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/otter.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/otter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/panda.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/panda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/pegasus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/pegasus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/penguin.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/penguin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/phoenix.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/phoenix.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/pig.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/pig.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/pigeon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/pigeon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/pika.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/pika.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/pisces.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/pisces.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/platypus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/platypus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/polar bear.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/polar bear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/rabbit.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/rabbit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/raccoon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/raccoon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/raptor.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/raptor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/rat.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/rat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/rhino.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/rhino.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/rock.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/rock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/rover.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/rover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/saber tooth.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/saber tooth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/sasquatch.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/sasquatch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/seal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/seal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/sewer turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/sewer turtle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/sheep.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/sheep.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/skunk.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/skunk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/snowy owl.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/snowy owl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/squirrel.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/squirrel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/stegosaurus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/stegosaurus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/t-rex.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/t-rex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/tiddalik.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/tiddalik.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/tiger.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/tiger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/toucan.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/toucan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/tribble.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/tribble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/triceratops.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/triceratops.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/unicorn.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/unicorn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/walrus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/walrus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/wooly rhino.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/wooly rhino.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/yeti.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/yeti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/yukon camel.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/yukon camel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/animals/zebra.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/animals/zebra.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745784391023</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="maybe fixed file paths for img">
+      <option name="closed" value="true" />
+      <created>1745784643162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745784643162</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +325,7 @@
     <MESSAGE value="added images and animal suggestions" />
     <MESSAGE value="added requirements for sharing" />
     <MESSAGE value="sharing works kinda" />
-    <option name="LAST_COMMIT_MESSAGE" value="sharing works kinda" />
+    <MESSAGE value="maybe fixed file paths for img" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe fixed file paths for img" />
   </component>
 </project>
