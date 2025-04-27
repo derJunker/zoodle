@@ -12,6 +12,8 @@
 import {HopSize, Rarity} from "./enums.js";
 
 let animalFacts = {};
+let guessHistory = []
+let won = false;
 
 document.addEventListener("DOMContentLoaded", function() {
     loadAnimalFacts();
@@ -25,14 +27,22 @@ function animalSubmitted() {
 
     const animalFactsOfValue = animalFacts.filter(animal => animal.AnimalName.toLowerCase() === value.toLowerCase());
     if (animalFactsOfValue && animalFactsOfValue.length === 1) {
-        const comparison = compareWithAnimal(animalFactsOfValue)
-        addToList(comparison, input, animalFactsOfValue[0].AnimalName)
+      const comparison = compareWithAnimal(animalFactsOfValue)
+      addToList(comparison, input, animalFactsOfValue[0].AnimalName)
+      if (comparison.every(char => char === 0)) {
+        won = true;
+        let shareBtn = document.getElementById("share-btn");
+        shareBtn.removeAttribute("disabled");
+        shareBtn.classList.remove("color-action-disabled");
+        shareBtn.classList.add("color-action-share");
+      }
     } else {
-        console.log("Animal not found");
+      console.log("Animal not found");
     }
 }
 
 function addToList(listEl, input, animalName) {
+  guessHistory.push(listEl)
   const container = document.querySelector("#results")
 
   const animalPicture = document.createElement("div")

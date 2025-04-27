@@ -40,6 +40,27 @@
       padding-inline: 1.2rem;
     }
 
+    .wood-menu {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #result-container {
+      flex: 1;
+      scroll-behavior: smooth;
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+
+    #buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    #share-btn {
+      padding: 1rem 2rem;
+    }
+
   </style>
 </head>
 
@@ -92,7 +113,7 @@ You found this *magic* toad!! Have a cookie 🍪
       </datalist>
       <button onclick="animalSubmitted()" class="btn btn-gradient color-action-good">Submit</button>
     </div>
-    <div class="wood-menu-group">
+    <div class="wood-menu-group" id="result-container">
       <div id="results">
         <div>Animal</div>
         <div>Rarity</div>
@@ -101,6 +122,11 @@ You found this *magic* toad!! Have a cookie 🍪
         <div>💰/min</div>
         <div>Clicks to Solve</div>
       </div>
+    </div>
+    <div id="buttons">
+      <button id="share-btn" class="btn btn-gradient color-action-disabled" disabled>
+        Share
+      </button>
     </div>
   </div>
 
