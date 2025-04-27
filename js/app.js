@@ -29,7 +29,7 @@ function animalSubmitted() {
     if (animalFactsOfValue && animalFactsOfValue.length === 1) {
       const comparison = compareWithAnimal(animalFactsOfValue)
       addToList(comparison, input, animalFactsOfValue[0].AnimalName)
-      if (comparison.every(char => char === 0)) {
+      if (comparison.every(char => char === 0) && animalFactsOfValue[0].AnimalName.toLowerCase() === getDailyAnimalFacts().AnimalName.toLowerCase()) {
         onWon()
       }
     } else {

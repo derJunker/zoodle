@@ -54,6 +54,15 @@
     "CoinsPerMin": 14
   },
   {
+    "AnimalName": "Chicken",
+    "Region": "FARM",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 18
+  },
+  {
     "AnimalName": "Kangaroo",
     "Region": "OUTBACK",
     "SolutionLength": 6,
@@ -106,6 +115,15 @@
     "Legs": 4,
     "HopSize": "MEDIUM",
     "CoinsPerMin": 16
+  },
+  {
+    "AnimalName": "Echidna",
+    "Region": "OUTBACK",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 20
   },
   {
     "AnimalName": "Zebra",
@@ -162,6 +180,15 @@
     "CoinsPerMin": 18
   },
   {
+    "AnimalName": "Rhino",
+    "Region": "SAVANNA",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 22
+  },
+  {
     "AnimalName": "Skunk",
     "Region": "NORTHERN",
     "SolutionLength": 8,
@@ -214,6 +241,15 @@
     "Legs": 2,
     "HopSize": "SMALL",
     "CoinsPerMin": 20
+  },
+  {
+    "AnimalName": "Otter",
+    "Region": "NORTHERN",
+    "SolutionLength": 9,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 24
   },
   {
     "AnimalName": "Penguin",
@@ -270,6 +306,15 @@
     "CoinsPerMin": 22
   },
   {
+    "AnimalName": "Snowy Owl",
+    "Region": "POLAR",
+    "SolutionLength": 9,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "FLY",
+    "CoinsPerMin": 26
+  },
+  {
     "AnimalName": "Monkey",
     "Region": "JUNGLE",
     "SolutionLength": 8,
@@ -322,6 +367,15 @@
     "Legs": 2,
     "HopSize": "FLY",
     "CoinsPerMin": 24
+  },
+  {
+    "AnimalName": "Lemur",
+    "Region": "JUNGLE",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 28
   },
   {
     "AnimalName": "Diplodocus",
@@ -378,6 +432,15 @@
     "CoinsPerMin": 26
   },
   {
+    "AnimalName": "Ankylo",
+    "Region": "JURASSIC",
+    "SolutionLength": 8,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 30
+  },
+  {
     "AnimalName": "Wooly Rhino",
     "Region": "ICE_AGE",
     "SolutionLength": 7,
@@ -430,6 +493,15 @@
     "Legs": 4,
     "HopSize": "SMALL",
     "CoinsPerMin": 28
+  },
+  {
+    "AnimalName": "Yukon Camel",
+    "Region": "ICE_AGE",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 32
   },
   {
     "AnimalName": "Raccoon",
@@ -486,6 +558,15 @@
     "CoinsPerMin": 30
   },
   {
+    "AnimalName": "Chipmunk",
+    "Region": "CITY",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 34
+  },
+  {
     "AnimalName": "Goat",
     "Region": "MOUNTAIN",
     "SolutionLength": 8,
@@ -538,6 +619,15 @@
     "Legs": 4,
     "HopSize": "SMALL",
     "CoinsPerMin": 32
+  },
+  {
+    "AnimalName": "Pika",
+    "Region": "MOUNTAIN",
+    "SolutionLength": 8,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 36
   },
   {
     "AnimalName": "Badger",
@@ -594,6 +684,15 @@
     "CoinsPerMin": 34
   },
   {
+    "AnimalName": "Firefly",
+    "Region": "NOCTURNAL",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 6,
+    "HopSize": "FLY",
+    "CoinsPerMin": 38
+  },
+  {
     "AnimalName": "Tribble",
     "Region": "MOON",
     "SolutionLength": 8,
@@ -646,6 +745,15 @@
     "Legs": 4,
     "HopSize": "MEDIUM",
     "CoinsPerMin": 26
+  },
+  {
+    "AnimalName": "Babmoon",
+    "Region": "MOON",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 2,
+    "HopSize": "MEDIUM",
+    "CoinsPerMin": 30
   },
   {
     "AnimalName": "Marsmot",
@@ -702,6 +810,15 @@
     "CoinsPerMin": 28
   },
   {
+    "AnimalName": "Marsten",
+    "Region": "MARS",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 4,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 32
+  },
+  {
     "AnimalName": "Chamaeleon",
     "Region": "CONSTELLATION",
     "SolutionLength": 7,
@@ -754,5 +871,14 @@
     "Legs": 4,
     "HopSize": "FLY",
     "CoinsPerMin": 30
+  },
+  {
+    "AnimalName": "Horologium",
+    "Region": "CONSTELLATION",
+    "SolutionLength": 7,
+    "Rarity": "TIMELESS",
+    "Legs": 0,
+    "HopSize": "SMALL",
+    "CoinsPerMin": 34
   }
 ]
