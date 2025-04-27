@@ -148,7 +148,6 @@ function shuffleArray(array, seed) {
 function getDailyAnimalFacts() {
     // current day:
     const today = new Date()
-  console.log("zoodle for", today);
     // get random animal dependent and consistent with the day
 
     const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
