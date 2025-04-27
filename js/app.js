@@ -161,7 +161,7 @@ function shareResults() {
 function convertGuessHistoryToEmoji() {
   const emojiMap = {
     '-1': '⬇️',
-    '0': '🟢',
+    '0': '🟩',
     '1': '⬆️'
   };
   return guessHistory.map(guess => guess.map(num => emojiMap[num]).join('')).join('\n');
