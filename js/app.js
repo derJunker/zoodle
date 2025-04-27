@@ -62,23 +62,34 @@ function animalSubmitted() {
     if (animalFactsOfValue && animalFactsOfValue.length === 1) {
         const comparison = compareWithAnimal(animalFactsOfValue)
 
-        addToList(comparisonToString(comparison), input)
+        addToList(comparison, input, animalFactsOfValue.AnimalName)
     } else {
         console.log("Animal not found");
     }
 }
 
-function addToList(listEl, input) {
-    const row = document.createElement("tr");
+function addToList(listEl, input, animalName) {
+  const container = document.querySelector("#results")
 
-    listEl.forEach(char => {
-        const td = document.createElement("td");
-        td.textContent = char;
-        row.appendChild(td);
-    });
+  const animalPicture = document.createElement("div")
+  animalPicture.classList.add("guess-animal")
+  animalPicture.classList.add("guess")
+  container.appendChild(animalPicture)
 
-    document.querySelector("#itemTable tbody").appendChild(row);
-    input.value = ""; // Clear input field
+
+  listEl.forEach(char => {
+    const div = document.createElement("div");
+    div.classList.add("guess");
+    if (char === -1) {
+      div.classList.add("guess-down");
+    } else if (char === 0) {
+      div.classList.add("guess-correct");
+    } else if (char === 1) {
+      div.classList.add("guess-up");
+    }
+    container.appendChild(div);
+  })
+  input.value = ""; // Clear input field
 }
 
 function compareWithAnimal(animalFacts) {

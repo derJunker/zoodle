@@ -1,0 +1,59 @@
+.wood-menu-group {
+  margin-bottom: 1rem;
+}
+
+.wood-menu {
+  height: 90%;
+  max-width: min(95%, 50rem);
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  row-gap: .5rem;
+  font-size: var(--font-size-small);
+}
+
+#results > div {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+#results > * {
+}
+
+.guess-correct {
+  background-color: lawngreen;
+}
+
+.guess-up {
+  background-color: red;
+}
+
+.guess-up::before {
+  content: "^";
+}
+
+.guess-down {
+  background-color: red;
+}
+
+.guess-down::before {
+  content: "v";
+}
+
+.guess-animal {
+  background-color: gray;
+}
+
+.guess {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--border-medium)
+}
+
+

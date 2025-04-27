@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/zoodle.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -23,7 +24,7 @@
 
 <body>
   <div class="wood-menu dock-bottom dock-bottom-shadow menu-bottom">
-    <input type="text" id="inputText" list="animalList" placeholder="Type something...">
+    <input class="wood-menu-group" type="text" id="inputText" list="animalList" placeholder="Type something...">
     <datalist id="animalList">
       <option value="Sheep">
       <option value="Pig">
@@ -33,29 +34,52 @@
       <option value="Chicken">
     </datalist>
     <button onclick="animalSubmitted()">Submit</button>
-    <table id="itemTable">
-      <thead>
-      <tr>
-        <th>Animal</th>
-        <th>Difficulty</th>
-        <th>Rarity</th>
-        <th>Legs</th>
-        <th>HopSize</th>
-        <th>💰/min</th>
-      </tr>
-      </thead>
-      <tbody>
-      <!-- Items will be added here -->
-      <tr>
-        <td><div class="guess-animal"></div></td>
-        <td><div class="guess-up"></div></td>
-        <td><div class="guess-correct"></div></td>
-        <td><div class="guess-correct"></div></td>
-        <td><div class="guess-correct"></div></td>
-        <td><div class="guess-down"></div></td>
-      </tr>
-      </tbody>
-    </table>
+    <div class="wood-menu-group">
+      <div id="results">
+        <div>Animal</div>
+        <div>Difficulty</div>
+        <div>Rarity</div>
+        <div>Legs</div>
+        <div>HopSize</div>
+        <div>💰/min</div>
+        <div class="guess guess-animal"></div>
+        <div class="guess guess-up"></div>
+        <div class="guess guess-correct"></div>
+        <div class="guess guess-correct"></div>
+        <div class="guess guess-correct"></div>
+        <div class="guess guess-down"></div>
+
+        <div class="guess guess-animal"></div>
+        <div class="guess guess-up"></div>
+        <div class="guess guess-correct"></div>
+        <div class="guess guess-correct"></div>
+        <div class="guess guess-correct"></div>
+        <div class="guess guess-down"></div>
+      </div>
+    </div>
+<!--    <table id="itemTable">-->
+<!--      <thead>-->
+<!--      <tr>-->
+<!--        <th>Animal</th>-->
+<!--        <th>Difficulty</th>-->
+<!--        <th>Rarity</th>-->
+<!--        <th>Legs</th>-->
+<!--        <th>HopSize</th>-->
+<!--        <th>💰/min</th>-->
+<!--      </tr>-->
+<!--      </thead>-->
+<!--      <tbody>-->
+<!--      &lt;!&ndash; Items will be added here &ndash;&gt;-->
+<!--      <tr>-->
+<!--        <td><div class="guess-animal"></div></td>-->
+<!--        <td><div class="guess-up"></div></td>-->
+<!--        <td><div class="guess-correct"></div></td>-->
+<!--        <td><div class="guess-correct"></div></td>-->
+<!--        <td><div class="guess-correct"></div></td>-->
+<!--        <td><div class="guess-down"></div></td>-->
+<!--      </tr>-->
+<!--      </tbody>-->
+<!--    </table>-->
   </div>
 
 
