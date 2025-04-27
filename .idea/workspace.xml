@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d3dd673-604a-424e-9abd-4241294faa8e" name="Changes" comment="added images and animal suggestions">
+    <list default="true" id="1d3dd673-604a-424e-9abd-4241294faa8e" name="Changes" comment="added requirements for sharing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745779368821</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added requirements for sharing">
+      <option name="closed" value="true" />
+      <created>1745784057778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745784057778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +203,7 @@
     <MESSAGE value="added nicer css" />
     <MESSAGE value="slightly less worse css" />
     <MESSAGE value="added images and animal suggestions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images and animal suggestions" />
+    <MESSAGE value="added requirements for sharing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added requirements for sharing" />
   </component>
 </project>

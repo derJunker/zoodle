@@ -30,15 +30,21 @@ function animalSubmitted() {
       const comparison = compareWithAnimal(animalFactsOfValue)
       addToList(comparison, input, animalFactsOfValue[0].AnimalName)
       if (comparison.every(char => char === 0)) {
-        won = true;
-        let shareBtn = document.getElementById("share-btn");
-        shareBtn.removeAttribute("disabled");
-        shareBtn.classList.remove("color-action-disabled");
-        shareBtn.classList.add("color-action-share");
+        onWon()
       }
     } else {
       console.log("Animal not found");
     }
+}
+
+function onWon() {
+  won = true;
+  let shareBtn = document.getElementById("share-btn");
+  shareBtn.removeAttribute("disabled");
+  shareBtn.classList.remove("color-action-disabled");
+  shareBtn.classList.add("color-action-share");
+
+  shareBtn.addEventListener("click", shareResults);
 }
 
 function addToList(listEl, input, animalName) {
@@ -97,15 +103,6 @@ function compareAttribute(dailyAnimalAttribute, animalAttribute) {
         return 0;
     }
 }
-// comaprison is array of {-1, 0, 1} for each attribute convert it into arrow down, green and up emojis
-function comparisonToString(comparison) {
-    const emojiMap = {
-        '-1': '⬇️',
-        '0': '🟢',
-        '1': '⬆️'
-    };
-    return comparison.map(num => emojiMap[num]);
-}
 
 function loadAnimalFacts() {
     fetch("animal-facts.json")
@@ -137,4 +134,24 @@ function getDailyAnimalFacts() {
     const animalIndex = dayOfYear % animalFacts.length;
 
     return animalFacts[animalIndex];
+}
+
+function shareResults() {
+  const resultText = convertGuessHistoryToEmoji();
+  if (navigator.canShare && navigator.canShare({ text: resultText })) {
+    navigator.share({ text: "Pog" })
+  } else {
+    navigator.clipboard.writeText(resultText)
+             .then(() => alert("Text wurde in die Zwischenablage kopiert!"))
+             .catch(err => console.error("Fehler beim Kopieren des Textes:", err));
+  }
+}
+
+function convertGuessHistoryToEmoji() {
+  const emojiMap = {
+    '-1': '⬇️',
+    '0': '🟢',
+    '1': '⬆️'
+  };
+  return guessHistory.map(guess => guess.map(num => emojiMap[num]).join('')).join('\n');
 }
