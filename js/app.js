@@ -45,6 +45,11 @@ function onWon() {
   shareBtn.classList.add("color-action-share");
 
   shareBtn.addEventListener("click", shareResults);
+
+  let submitBtn = document.getElementById("submit-btn");
+  submitBtn.setAttribute("disabled", "true");
+  submitBtn.classList.add("color-action-disabled");
+  submitBtn.classList.remove("color-action-good");
 }
 
 function addToList(listEl, input, animalName) {

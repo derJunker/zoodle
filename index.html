@@ -20,6 +20,8 @@
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <link rel="preload" as="image" href="./assets/img/arrow.png">
+
   <meta name="theme-color" content="#fafafa">
   <style>
     #animal-input-container {
@@ -111,7 +113,7 @@ You found this *magic* toad!! Have a cookie 🍪
         <option value="Unicorn">
         <option value="Chicken">
       </datalist>
-      <button onclick="animalSubmitted()" class="btn btn-gradient color-action-good">Submit</button>
+      <button onclick="animalSubmitted()" id="submit-btn" class="btn btn-gradient color-action-good">Submit</button>
     </div>
     <div class="wood-menu-group" id="result-container">
       <div id="results">
