@@ -35,16 +35,22 @@
   background-color: red;
 }
 
-.guess-up::before {
-  content: "^";
-}
-
 .guess-down {
   background-color: red;
 }
 
-.guess-down::before {
-  content: "v";
+.guess-down, .guess-up {
+  display: grid;
+  place-items: center;
+}
+
+.guess-down > img {
+  transform: rotate(180deg);
+}
+
+.guess-down > img, .guess-up > img {
+  width: 80%;
+  height: 80%;
 }
 
 .guess-animal {

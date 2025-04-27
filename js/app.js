@@ -55,6 +55,12 @@ function addToList(listEl, input, animalName) {
     } else if (char === 1) {
       div.classList.add("guess-up");
     }
+    if (char === -1 || char === 1) {
+      const img = document.createElement("img");
+      img.src = "/img/arrow.png";
+      img.alt = "arrow down";
+      div.appendChild(img);
+    }
     container.appendChild(div);
   })
   input.value = ""; // Clear input field
@@ -64,11 +70,11 @@ function compareWithAnimal(animalFacts) {
     const dailyAnimalFacts = getDailyAnimalFacts()
     const comparison = [];
     // compare each attribute of the animal with the daily animal
-    comparison.push(compareAttribute(dailyAnimalFacts.SolutionLength, animalFacts[0].SolutionLength));
     comparison.push(compareAttribute(Rarity[dailyAnimalFacts.Rarity], Rarity[animalFacts[0].Rarity]));
     comparison.push(compareAttribute(dailyAnimalFacts.Legs, animalFacts[0].Legs));
     comparison.push(compareAttribute(HopSize[dailyAnimalFacts.HopSize], HopSize[animalFacts[0].HopSize]));
     comparison.push(compareAttribute(dailyAnimalFacts.CoinsPerMin, animalFacts[0].CoinsPerMin));
+    comparison.push(compareAttribute(dailyAnimalFacts.SolutionLength, animalFacts[0].SolutionLength));
     return comparison;
 }
 
