@@ -104,8 +104,10 @@ Art by lgbeard
 You found the Toad of bad Code!! Have a cookie 🍪 for your troubling journey ahead.
 -->
   <div class="wood-menu dock-bottom dock-bottom-shadow menu-bottom">
+    <label for="inputText" style="padding-bottom: .2rem">Animal</label>
     <div id="animal-input-container">
-      <input class="wood-menu-group" type="text" id="inputText" list="animalList" placeholder="Type something...">
+      <input class="wood-menu-group" type="text" id="inputText" list="animalList" placeholder="Guess an Animal..."
+             onkeydown="if(event.key === 'Enter') document.getElementById('submit-btn').click();">
       <datalist id="animalList">
         <option value="Sheep">
         <option value="Pig">
