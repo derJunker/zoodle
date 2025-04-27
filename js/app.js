@@ -55,7 +55,7 @@ function addToList(listEl, input, animalName) {
   animalPicture.classList.add("guess-animal")
   animalPicture.classList.add("guess")
   const img = document.createElement("img");
-  img.src = `/img/animals/${animalName.toLowerCase()}.png`;
+  img.src = `/public/img/animals/${animalName.toLowerCase()}.png`;
   img.alt = animalName;
   animalPicture.appendChild(img);
   container.appendChild(animalPicture)
@@ -73,7 +73,7 @@ function addToList(listEl, input, animalName) {
     }
     if (char === -1 || char === 1) {
       const img = document.createElement("img");
-      img.src = "/img/arrow.png";
+      img.src = "/public/img/arrow.png";
       img.alt = "arrow down";
       div.appendChild(img);
     }
