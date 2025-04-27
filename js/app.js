@@ -113,11 +113,12 @@ function loadAnimalFacts() {
     fetch("animal-facts.json")
         .then(response => response.json())
         .then(data => {
-            animalFacts = data;
+            animalFacts = shuffleArray(data, 314159265358979);
             return data;
         })
         .then(data => {
           const dataList = document.getElementById('animalList');
+
 
           dataList.innerHTML = '';
           data.forEach(animal => {
@@ -129,10 +130,25 @@ function loadAnimalFacts() {
         .catch(error => console.error('Error loading animal facts:', error));
 }
 
+function seededRandom(seed) {
+  let x = Math.sin(seed++) * 10000;
+  return x - Math.floor(x);
+}
+
+function shuffleArray(array, seed) {
+  let result = array.slice(); // copy array to avoid modifying original
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(seededRandom(seed + i) * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
 
 function getDailyAnimalFacts() {
     // current day:
     const today = new Date()
+  console.log("zoodle for", today);
     // get random animal dependent and consistent with the day
 
     const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
