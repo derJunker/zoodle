@@ -14,6 +14,7 @@ import {HopSize, Rarity} from "./enums.js";
 let animalFacts = {};
 let guessHistory = []
 let won = false;
+let todayOnLoad = new Date(new Date().toUTCString());
 
 document.addEventListener("DOMContentLoaded", function() {
     loadAnimalFacts();
@@ -161,10 +162,9 @@ function shuffleArray(array, seed) {
 
 function getDailyAnimalFacts() {
     // current day:
-    const today = new Date(new Date().toUTCString());
     // get random animal dependent and consistent with the day
 
-    const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+    const dayOfYear = Math.floor((todayOnLoad - new Date(todayOnLoad.getFullYear(), 0, 0)) / 86400000);
     const animalIndex = dayOfYear % animalFacts.length;
 
     return animalFacts[animalIndex];
@@ -190,8 +190,7 @@ function copyResults() {
 
 function getShareText() {
   const startDate = new Date('2025-04-26');
-  const today = new Date(new Date().toUTCString());
-  const diffDays = Math.floor((today - startDate) / 86400000);
+  const diffDays = Math.floor((todayOnLoad - startDate) / 86400000);
   const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
   const guessHistoryText = "```\n"+ convertGuessHistoryToEmoji() + "\n```\n";
   return sharePreText + guessHistoryText;

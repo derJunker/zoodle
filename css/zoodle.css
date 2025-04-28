@@ -39,7 +39,7 @@
   background-color: red;
 }
 
-.guess-down, .guess-up {
+.guess-down, .guess-up, .guess-animal {
   display: grid;
   place-items: center;
 }
@@ -53,13 +53,17 @@
   height: 80%;
 }
 
+.guess-animal > img {
+  width: 90%;
+  height: 90%;
+}
+
 .guess-animal {
   background-color: rgba(0, 0, 0, 0.3);
-  padding: .2rem;
 }
 
 .guess {
-  width: 100%;
+  width: 90%;
   max-width: 5rem;
   aspect-ratio: 1;
   border-radius: var(--border-large);
