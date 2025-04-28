@@ -14,7 +14,7 @@
   align-items: center;
   justify-items: center;
   row-gap: 1rem;
-  column-gap: 1rem;
+  column-gap: 0;
   font-size: var(--font-size-small);
 }
 
