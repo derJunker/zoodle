@@ -58,11 +58,14 @@
 
     #buttons {
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
+      gap: 1rem;
     }
 
-    #share-btn {
-      padding: 1rem 4rem;
+    #share-btn, #copy-btn {
+      flex: 0.5;
+      max-width: 16rem;
+      padding: 1rem 2rem;
     }
 
   </style>
@@ -146,12 +149,16 @@ You found the Toad of bad Code!! Have a cookie 🍪 for your troubling journey a
         </div>
         <div class="tooltip">Clicks to Solve
           <span class="tooltiptext">
-            How many clicks you need to optimally solve the animal.
+            How many clicks you need to optimally solve the animal in the worst case scenario.
           </span>
         </div>
       </div>
     </div>
     <div id="buttons">
+      <button id="copy-btn" class="btn btn-gradient color-action-disabled" disabled>
+        Copy Link
+      </button>
+
       <button id="share-btn" class="btn btn-gradient color-action-disabled" disabled>
         Share
       </button>

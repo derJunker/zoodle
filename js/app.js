@@ -46,6 +46,15 @@ function onWon() {
 
   shareBtn.addEventListener("click", shareResults);
 
+  let copyBtn = document.getElementById("copy-btn");
+  copyBtn.removeAttribute("disabled");
+  copyBtn.classList.remove("color-action-disabled");
+  copyBtn.classList.add("color-action-info");
+
+  copyBtn.addEventListener("click", copyResults);
+
+
+
   let submitBtn = document.getElementById("submit-btn");
   submitBtn.setAttribute("disabled", "true");
   submitBtn.classList.add("color-action-disabled");
@@ -157,26 +166,38 @@ function getDailyAnimalFacts() {
 }
 
 function shareResults() {
-  const startDate = new Date('2025-04-26');
-  const today = new Date();
-  const diffDays = Math.floor((today - startDate) / 86400000);
-  const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
-  const guessHistoryText = convertGuessHistoryToEmoji();
-  const shareText = sharePreText + guessHistoryText + "\nhttps://derjunker.github.io/zoodle/";
+  const shareText = getShareText()
   if (navigator.canShare && navigator.canShare({ text: shareText })) {
     navigator.share({ text: shareText })
   } else {
     navigator.clipboard.writeText(shareText)
-             .then(() => alert("Text wurde in die Zwischenablage kopiert!"))
-             .catch(err => console.error("Fehler beim Kopieren des Textes:", err));
+             .then(() => alert("Text was copied to clipboard!"))
+             .catch(err => console.error("Error while trying to copy :( Sorry couldn't share\n", err));
   }
 }
 
+function copyResults() {
+  const shareText = getShareText()
+  navigator.clipboard.writeText(shareText)
+           .then(() => alert("Text was copied to clipboard!"))
+           .catch(err => console.error("Error while trying to copy :( Sorry couldn't share\n", err));
+}
+
+function getShareText() {
+  const startDate = new Date('2025-04-26');
+  const today = new Date();
+  const diffDays = Math.floor((today - startDate) / 86400000);
+  const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
+  const guessHistoryText = "```\n"+ convertGuessHistoryToEmoji() + "\n```\n";
+  return sharePreText + guessHistoryText + "https://derjunker.github.io/zoodle/";
+}
+
 function convertGuessHistoryToEmoji() {
+
   const emojiMap = {
-    '-1': '⬇️',
-    '0': '🟩',
-    '1': '⬆️'
+    '-1': '↓',
+    '0': '☐',
+    '1': '↑'
   };
   return guessHistory.map(guess => guess.map(num => emojiMap[num]).join('')).join('\n');
 }
