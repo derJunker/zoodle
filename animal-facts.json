@@ -700,59 +700,5 @@
     "Legs": 2,
     "HopSize": "SMALL",
     "CoinsPerMin": 28
-  },
-  {
-    "AnimalName": "Chamaeleon",
-    "Region": "CONSTELLATION",
-    "SolutionLength": 7,
-    "Rarity": "COMMON",
-    "Legs": 4,
-    "HopSize": "SMALL",
-    "CoinsPerMin": 22
-  },
-  {
-    "AnimalName": "Corvus",
-    "Region": "CONSTELLATION",
-    "SolutionLength": 7,
-    "Rarity": "COMMON",
-    "Legs": 2,
-    "HopSize": "FLY",
-    "CoinsPerMin": 22
-  },
-  {
-    "AnimalName": "Lynx",
-    "Region": "CONSTELLATION",
-    "SolutionLength": 8,
-    "Rarity": "COMMON",
-    "Legs": 4,
-    "HopSize": "SMALL",
-    "CoinsPerMin": 22
-  },
-  {
-    "AnimalName": "Pisces",
-    "Region": "CONSTELLATION",
-    "SolutionLength": 7,
-    "Rarity": "RARE",
-    "Legs": 0,
-    "HopSize": "SMALL",
-    "CoinsPerMin": 26
-  },
-  {
-    "AnimalName": "Capricornus",
-    "Region": "CONSTELLATION",
-    "SolutionLength": 7,
-    "Rarity": "RARE",
-    "Legs": 2,
-    "HopSize": "SMALL",
-    "CoinsPerMin": 26
-  },
-  {
-    "AnimalName": "Pegasus",
-    "Region": "CONSTELLATION",
-    "SolutionLength": 9,
-    "Rarity": "EPIC",
-    "Legs": 4,
-    "HopSize": "FLY",
-    "CoinsPerMin": 30
   }
 ]
