@@ -156,7 +156,7 @@ function shuffleArray(array, seed) {
 
 function getDailyAnimalFacts() {
     // current day:
-    const today = new Date()
+    const today = new Date(new Date().toUTCString());
     // get random animal dependent and consistent with the day
 
     const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
@@ -185,11 +185,11 @@ function copyResults() {
 
 function getShareText() {
   const startDate = new Date('2025-04-26');
-  const today = new Date();
+  const today = new Date(new Date().toUTCString());
   const diffDays = Math.floor((today - startDate) / 86400000);
   const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
   const guessHistoryText = "```\n"+ convertGuessHistoryToEmoji() + "\n```\n";
-  return sharePreText + guessHistoryText + "https://derjunker.github.io/zoodle/";
+  return sharePreText + guessHistoryText;
 }
 
 function convertGuessHistoryToEmoji() {
