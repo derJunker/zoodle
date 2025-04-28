@@ -5,7 +5,6 @@
 }
 
 .q-mark.tooltip {
-  position: inherit;
   display: inherit;
   text-decoration: inherit;
 }
@@ -26,6 +25,6 @@
   right: 0;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext, .tooltip:focus .tooltiptext {
   visibility: visible;
 }

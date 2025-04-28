@@ -27,6 +27,10 @@ function animalSubmitted() {
 
     const animalFactsOfValue = animalFacts.filter(animal => animal.AnimalName.toLowerCase() === value.toLowerCase());
     if (animalFactsOfValue && animalFactsOfValue.length === 1) {
+      if (guessHistory.filter(guess => guess[0].toLowerCase() === value.toLowerCase()).length > 0) {
+        alert("You already guessed this animal!");
+        return;
+      }
       const comparison = compareWithAnimal(animalFactsOfValue)
       addToList(comparison, input, animalFactsOfValue[0].AnimalName)
       if (comparison.every(char => char === 0) && animalFactsOfValue[0].AnimalName.toLowerCase() === getDailyAnimalFacts().AnimalName.toLowerCase()) {
@@ -62,7 +66,7 @@ function onWon() {
 }
 
 function addToList(listEl, input, animalName) {
-  guessHistory.push(listEl)
+  guessHistory.push([animalName, ...listEl]);
   const container = document.querySelector("#results")
 
   const animalPicture = document.createElement("div")
@@ -71,6 +75,7 @@ function addToList(listEl, input, animalName) {
   const img = document.createElement("img");
   img.src = `./assets/img/animals/${animalName.toLowerCase()}.png`;
   img.alt = animalName;
+  img.id = animalName;
   animalPicture.appendChild(img);
   container.appendChild(animalPicture)
 
@@ -199,5 +204,5 @@ function convertGuessHistoryToEmoji() {
     '0': '☐',
     '1': '↑'
   };
-  return guessHistory.map(guess => guess.map(num => emojiMap[num]).join('')).join('\n');
+  return guessHistory.map(guess => guess.slice(1).map(num => emojiMap[num]).join('')).join('\n');
 }
