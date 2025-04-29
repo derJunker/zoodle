@@ -161,11 +161,9 @@ function shuffleArray(array, seed) {
 
 
 function getDailyAnimalFacts() {
-    // current day:
-    // get random animal dependent and consistent with the day
-
-    const dayOfYear = Math.floor((todayOnLoad - new Date(todayOnLoad.getFullYear(), 0, 0)) / 86400000);
-    const animalIndex = dayOfYear % animalFacts.length;
+    const startDate = new Date('2025-04-26');
+    const diffDays = Math.floor((todayOnLoad - startDate) / 86400000);
+    const animalIndex = diffDays % animalFacts.length;
 
     return animalFacts[animalIndex];
 }
