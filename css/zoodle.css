@@ -40,7 +40,7 @@
 }
 
 .guess-down, .guess-up, .guess-animal {
-  display: grid;
+  display: inline-grid;
   place-items: center;
 }
 
@@ -68,6 +68,7 @@
   aspect-ratio: 1;
   border-radius: var(--border-large);
   border: var(--border-medium) rgba(0,0,0,0.3) solid;
+  position: relative;
 }
 
 

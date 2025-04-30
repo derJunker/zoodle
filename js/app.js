@@ -16,6 +16,28 @@ let guessHistory = []
 let won = false;
 let todayOnLoad = getCurrentDay();
 
+// Rarity
+// Legs
+// HopSize
+// CoinsPerMin
+// SolutionLength
+function getToolTipForIndex(animalFacts, index) {
+  switch (index) {
+    case 0:
+      return animalFacts.Rarity
+    case 1:
+      return animalFacts.Legs + " legs";
+    case 2:
+      return animalFacts.HopSize;
+    case 3:
+      return animalFacts.CoinsPerMin + "🪙/min";
+    case 4:
+      return animalFacts.SolutionLength + " clicks";
+    default:
+      return null;
+  }
+}
+
 setInterval(checkDayChange, 2000)
 
 function checkDayChange() {
@@ -49,7 +71,7 @@ function animalSubmitted() {
         return;
       }
       const comparison = compareWithAnimal(animalFactsOfValue)
-      addToList(comparison, input, animalFactsOfValue[0].AnimalName)
+      addToList(comparison, input, animalFactsOfValue[0].AnimalName, animalFactsOfValue[0])
       if (comparison.every(char => char === 0) && animalFactsOfValue[0].AnimalName.toLowerCase() === getDailyAnimalFacts().AnimalName.toLowerCase()) {
         onWon()
       }
@@ -80,9 +102,11 @@ function onWon() {
   submitBtn.setAttribute("disabled", "true");
   submitBtn.classList.add("color-action-disabled");
   submitBtn.classList.remove("color-action-good");
+
+  setTimeout(() => alert("You guessed it correctly! Congrats :D"), 500)
 }
 
-function addToList(listEl, input, animalName) {
+function addToList(listEl, input, animalName, animalFacts) {
   guessHistory.push([animalName, ...listEl]);
   const container = document.querySelector("#results")
 
@@ -96,8 +120,11 @@ function addToList(listEl, input, animalName) {
   animalPicture.appendChild(img);
   container.appendChild(animalPicture)
 
+  createToolTipFor(animalPicture, animalName)
 
-  listEl.forEach(char => {
+
+  for (let i = 0; i < listEl.length; i++){
+    const char = listEl[i];
     const div = document.createElement("div");
     div.classList.add("guess");
     if (char === -1) {
@@ -113,9 +140,18 @@ function addToList(listEl, input, animalName) {
       img.alt = "arrow down";
       div.appendChild(img);
     }
+    createToolTipFor(div, getToolTipForIndex(animalFacts, i))
     container.appendChild(div);
-  })
+  }
   input.value = ""; // Clear input field
+}
+
+function createToolTipFor(parent, text) {
+  parent.classList.add("tooltip")
+  const animalToolTip = document.createElement("span")
+  animalToolTip.textContent= text
+  animalToolTip.classList.add("tooltiptext")
+  parent.appendChild(animalToolTip)
 }
 
 function compareWithAnimal(animalFacts) {
