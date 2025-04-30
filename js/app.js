@@ -14,7 +14,23 @@ import {HopSize, Rarity} from "./enums.js";
 let animalFacts = {};
 let guessHistory = []
 let won = false;
-let todayOnLoad = new Date(new Date().toUTCString());
+let todayOnLoad = getCurrentDay();
+
+setInterval(checkDayChange, 2000)
+
+function checkDayChange() {
+  const onLoadDiff = getDiffDays()
+  const currDiff = getDiffDaysWithEnd(getCurrentDay())
+  if (currDiff > onLoadDiff) {
+    // refresh page to get new animal
+    window.location.reload()
+    alert("A new wordle started! Good Luck ;)")
+  }
+}
+
+function getCurrentDay() {
+  return new Date(new Date().toUTCString().slice(0, -4));
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     loadAnimalFacts();
@@ -161,8 +177,7 @@ function shuffleArray(array, seed) {
 
 
 function getDailyAnimalFacts() {
-    const startDate = new Date('2025-04-26');
-    const diffDays = Math.floor((todayOnLoad - startDate) / 86400000);
+    const diffDays = getDiffDays()
     const animalIndex = diffDays % animalFacts.length;
 
     return animalFacts[animalIndex];
@@ -187,11 +202,19 @@ function copyResults() {
 }
 
 function getShareText() {
-  const startDate = new Date('2025-04-26');
-  const diffDays = Math.floor((todayOnLoad - startDate) / 86400000);
+  const diffDays = getDiffDays()
   const sharePreText = "Zoodle #" + diffDays + " Attempts: " + guessHistory.length + "\n";
   const guessHistoryText = "```\n"+ convertGuessHistoryToEmoji() + "\n```\n";
   return sharePreText + guessHistoryText;
+}
+
+function getDiffDays() {
+  return getDiffDaysWithEnd(todayOnLoad)
+}
+
+function getDiffDaysWithEnd(end) {
+  const startDate = new Date(new Date('2025-04-26').toUTCString().slice(0, -4));
+  return Math.floor((end - startDate) / 86400000);
 }
 
 function convertGuessHistoryToEmoji() {

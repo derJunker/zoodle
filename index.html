@@ -125,18 +125,12 @@ You found the Toad of bad Code!! Have a cookie 🍪 for your troubling journey a
       <input class="wood-menu-group" type="text" id="inputText" list="animalList" placeholder="Guess an Animal..."
              onkeydown="if(event.key === 'Enter') document.getElementById('submit-btn').click();">
       <datalist id="animalList">
-        <option value="Sheep">
-        <option value="Pig">
-        <option value="Horse">
-        <option value="Cow">
-        <option value="Unicorn">
-        <option value="Chicken">
       </datalist>
       <button onclick="animalSubmitted()" id="submit-btn" class="btn btn-gradient color-action-good">Submit</button>
     </div>
     <div class="wood-menu-group" id="result-container">
       <div id="results">
-        <div>
+        <div class="header-attr">
           Animal
         </div>
         <div class="header-attr">
