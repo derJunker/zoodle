@@ -180,7 +180,10 @@ function loadAnimalFacts() {
     fetch("animal-facts.json")
         .then(response => response.json())
         .then(data => {
-            animalFacts = shuffleArray(data, 314159265358979);
+            let seed = 314159265358979;
+            const animalIterations = Math.floor(getDiffDays() / data.length) + 1;
+            seed *= animalIterations;
+            animalFacts = shuffleArray(data, seed);
             return data;
         })
         .then(data => {
