@@ -30,7 +30,7 @@ function getToolTipForIndex(animalFacts, index) {
     case 2:
       return animalFacts.HopSize;
     case 3:
-      return animalFacts.CoinsPerMin + "🪙/min";
+      return animalFacts.CoinsPerMin + " c/min";
     case 4:
       return animalFacts.SolutionLength + " clicks";
     default:
